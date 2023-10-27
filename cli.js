@@ -23,6 +23,8 @@ program
     .requiredOption('--cms-url <url>', 'CMS page URL.')
     .requiredOption('--category-url <url>', 'Category page URL.')
     .requiredOption('--product-url <url>', 'Product page URL.')
+    .requiredOption('--brand-url <url>', 'Brand page URL.')
+    .requiredOption('--blog-url <url>', 'Blog page URL.')
     .option('-u, --auth-username <user>', 'Basic authentication username.')
     .option('-p, --auth-password <password>', 'Basic authentication password.')
     .option('-d, --debug', 'Enable logging of debugging information.')
